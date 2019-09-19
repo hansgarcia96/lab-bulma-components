@@ -3,10 +3,10 @@ import React, { Component } from "react";
 export default class FormField extends Component {
     render() {
         return (
-<div class="field">
-  <label class="label">{this.props.label}</label>
-  <div class="control">
-    <input class="input" type="text" placeholder={this.props.placeholder}/>
+<div className="field">
+  <label className="label">{this.props.label}</label>
+  <div className="control">
+    <input className="input" type="text" placeholder={this.props.placeholder}/>
   </div>
 </div>
             
